@@ -1,0 +1,31 @@
+.start{
+    padding-bottom: 80px;
+}
+.start__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 117%;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #36536b;
+  margin-bottom: 40px;
+}
+@media screen and (min-width : 867px) {
+    .start{
+        padding-bottom: 100px;
+    }
+}
+@media screen and (min-width: 1440px) {
+  .start__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lf {
+    left: 61%;
+  }
+  .start{
+    padding-bottom: 96px;
+  }
+}
